@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+{% block content %}
+        <article class="media content-section search">
+          <div class="media-body">
+            <div class="article-metadata">
+                <form method="POST">
+                    <img style="margin: 30px 0px 30px auto; width:100%" src="../static/logo.png" alt="Logo">
+                    <br>
+                    <input name="text" class="input-text"><br>
+
+                    <p>Input Example:  A: 0.2; B: 0.9; D: 0.8 </p>
+
+                    <input type="submit" class="submit" value="Search" style="margin: 0px 0px 70px auto;">
+                    {% if error %}
+                    <p>Error !</p>
+                    {% endif %}
+                </form>
+            </div>
+          </div>
+        </article>
+        {% if showdata %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata" style="text-align: left;">
+                <h2 style="text-align: left; margin: 0px 0px 30px auto;">
+                    Results of {{ query }} :
+                </h2>
+                {% for i in list %}
+	                <h3 style="margin: 0px 0px 10px auto; padding-left: 50px;">
+                        <span style="color:rgb(26,13,171);font-size 26px ;">
+                            <a href="{{ url_for('result',name = i, text = query) }}" target="_blank">
+                                {{i}}
+                            </a>
+                        </span>
+                        <span style="font-size:16px;color:green;">
+                            <span>, Score :
+                                {{ list[i][0] }}</span>
+                        </span>
+                    </h3>
+                    <h5 style="padding-left: 80px;margin: 20px 0px 30px auto;color:rgb(106,106,106)">{{ list[i][1] }}</h5>
+		        {% endfor %}
+
+
+            </div>
+          </div>
+        </article>
+        {% endif %}
+{% endblock content %}
