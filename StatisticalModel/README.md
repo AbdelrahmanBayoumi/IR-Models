@@ -13,17 +13,17 @@ Implementation Of Statistical Model -One Of Information Retrieval Models- with G
 
 - HomePage 
 
-![Background](https://i.imgur.com/mkAcqfx.png)
+![Background](https://i.imgur.com/DmkWbHX.png)
 
 
 - HomePage with result
 
-![Background](https://i.imgur.com/Gx3GBLE.png)
+![Background](https://i.imgur.com/BZxYhN8.png)
 
 
 - Result Page
 
-![Background](https://i.imgur.com/lSeZsl9.png)
+![Background](https://i.imgur.com/f3CacXe.png)
 
 
 
