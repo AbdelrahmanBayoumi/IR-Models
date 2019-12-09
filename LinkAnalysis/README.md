@@ -13,12 +13,13 @@ Implementation Of Link Analysis with Vector Space Model -One Of Information Retr
 
 - HomePage 
 
-![Background](/vector_space/static/images/pic01.jpg)
+![pic01](https://user-images.githubusercontent.com/48678280/70406231-b54e5a80-1a48-11ea-888c-bfdeb8da0a88.png)
 
 
 - HomePage with result
 
-![Background](/vector_space/static/images/pic02.jpg)
+![pic02](https://user-images.githubusercontent.com/48678280/70406229-b4b5c400-1a48-11ea-8181-483f068febc7.png)
+
 
 
 
