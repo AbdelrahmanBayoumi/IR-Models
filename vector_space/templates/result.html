@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="../static/result.css">
+
+     {% if title %}
+        <title>Link Analysis - {{ title }}</title>
+     {% else %}
+        <title>Link Analysis</title>
+     {% endif %}
+    <link rel="shortcut icon" href="../static/images/favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="nav">
+        <a href="" class="site-title">
+            {{ text }}
+        </a>
+        <span class="back-btn">
+            <a href="/"><img src="../static/images/back-btn.jpg" width="50px"></a>
+        </span>
+    </div>
+
+    <div class="results-box">
+        <div class="result-return">
+            <div class="content">
+                {{ k }}
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        Copyright © 2019 - <a href="https://github.com/AbdelrahmanBayoumi" target="_blank" class="author-name">Abdelrahman Bayoumi</a>. All Rights Reserved.
+    </div>
+</body>
+</html>
