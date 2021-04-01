@@ -1,2 +1,5 @@
+numpy==1.17.3
+networkx==2.4
+matplotlib==3.1.2
 Flask==1.1.1
-gunicorn
+pygal==2.4.0
