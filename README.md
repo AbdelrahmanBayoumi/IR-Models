@@ -19,7 +19,7 @@ Implementation Information Retrieval Models- with GUI.
 ## 🌎 Link Analysis Model
 
 - Live Website: https://link-analysis-model-ir.herokuapp.com/
-- Source Code: [statistical-model-ir branch](https://github.com/AbdelrahmanBayoumi/IR-Models/tree/link-analysis-model-ir)
+- Source Code: [link-analysis-model-ir branch](https://github.com/AbdelrahmanBayoumi/IR-Models/tree/link-analysis-model-ir)
 
 
 ## Contributing 💡
