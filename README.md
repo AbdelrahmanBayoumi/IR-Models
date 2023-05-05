@@ -7,18 +7,18 @@ Implementation Information Retrieval Models- with GUI.
 
 ## 🌎 Statistical Model
 
-- Live Website: https://statistical-model-ir.herokuapp.com/
+- Live Website: https://statistical-model-ir.onrender.com/
 - Source Code: [statistical-model-ir branch](https://github.com/AbdelrahmanBayoumi/IR-Models/tree/statistical-model-ir)
 
 
 ## 🌎 Vector Space Model
 
-- Live Website: https://vector-space-model-ir.herokuapp.com/
+- Live Website: https://vector-space-model.onrender.com/
 - Source Code: [vector-space-model branch](https://github.com/AbdelrahmanBayoumi/IR-Models/tree/vector-space-model)
 
 ## 🌎 Link Analysis Model
 
-- Live Website: https://link-analysis-model-ir.herokuapp.com/
+- Live Website: https://link-analysis-model-ir.onrender.com/
 - Source Code: [link-analysis-model-ir branch](https://github.com/AbdelrahmanBayoumi/IR-Models/tree/link-analysis-model-ir)
 
 
